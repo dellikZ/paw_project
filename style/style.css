@@ -8,7 +8,13 @@
  list-style: none;
 }
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', arial, sans-serif;
+}
+
+.img-logo {
+	width: 500px;
+	height: 400px;
+	align: left;
 }
 
 .image{
@@ -18,6 +24,10 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 69%;
+}
+
+.parap-why-us {
+	aligh: right;
 }
 
 nav{
@@ -71,6 +81,35 @@ nav #icon{
 	
 }
 
+.position-div {
+	padding: 20px;
+}
+
+.index-header {
+	font-size: 45px;
+}
+.index-description {
+	font-size: 18px;
+	float: right;
+	display: block;
+	
+}
+.parap-description {
+	align: right;
+	padding: 60px;
+}
+
+.buffer {
+	height: 200px;
+}
+
+.image-service {
+	width: 450px;
+	height: 250px;
+	padding: 10px;
+	float:left;
+}
+
 @media (max-width: 1048px){
 
 label.logo{
@@ -87,6 +126,7 @@ nav a{
 }
 
 }
+
 
 @media (max-width: 909px){
      nav #icon{
