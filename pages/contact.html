@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="ro">
-<head>
-  <meta charset="utf-8">
+   <head>
+      <meta charset="utf-8">
       <title>Contact</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta charset="utf-8">
-    <link rel="stylesheet" href="../style/style.css">
-    
-</head>
-<body>
-
-
-  <nav>
-    <label class="logo">SCG Computers</label>
-
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="services.html">Servicii</a></li>
-      <li><a href="team.html">Echipa</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      
-    </ul>
-    <label id="icon">
-    <i class="fas fa-bars"></i>
-  </nav>
- 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-
-    <script src="../scripts/script.js"></script>       
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script>$(document).ready(function(){
-        
-      $('#icon').click(function(){
-
-        $('ul').toggleClass('show')
-
-        });
-
-      });
-    </script>
-</body>
+      <link rel="stylesheet" href="../style/style.css">
+   </head>
+   <body>
+      <header class="wrapper">
+         <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+               <div class="logo"><a href="#">SCG Computers</a></div>
+               <ul class="links">
+                  <li><a href="../index.html">Home</a></li>
+                  <li>
+                     <a href="services.html" class="desktop-link">Services</a>
+                     <input type="checkbox" id="show-features">
+                     <label for="show-features">Services</label>
+                     <ul>
+                        <li><a href="services.html">Laptopuri</a></li>
+                        <li><a href="services.html">Calculatoare</a></li>
+                        <li><a href="services.html">Telefoane</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="team.html" class="desktop-link">Echipa</a>
+                     <input type="checkbox" id="show-services">
+                     <label for="show-services">Echipa</label>
+                     <ul>
+                        <li><a href="team.html">Soare Alexandru</a></li>
+                        <li><a href="team.html">Gheorghe Rares</a></li>
+                        <li><a href="team.html">Coman Alexandru</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script src="../scripts/script.js"></script>       
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script>$(document).ready(function(){
+         $('#icon').click(function(){
+         
+           $('ul').toggleClass('show')
+         
+           });
+         
+         });
+      </script>
+   </body>
 </html>
-
