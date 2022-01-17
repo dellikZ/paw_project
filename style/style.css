@@ -11,24 +11,6 @@ body{
 	font-family: 'Montserrat', arial, sans-serif;
 }
 
-.img-logo {
-	width: 500px;
-	height: 400px;
-	align: left;
-}
-
-.image{
-	height: 100%;
-	background: url("bg1.jpeg");
-	height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 69%;
-}
-
-.parap-why-us {
-	aligh: right;
-}
 
 
 
@@ -60,7 +42,7 @@ label.logo{
 	align-items: center;
   }
   nav .content .links{
-	margin-left: 450px;
+	margin-left: 550px;
 	display: flex;
   }
   .content .logo a{
@@ -179,33 +161,41 @@ label.logo{
 	top: 0;
   }
 
-.position-div {
-	padding: 20px;
+.element {
+    /*background:rgb(134, 226, 255);*/
+    margin:10px;
+}
+p {
+    display:inline-block;
+    margin:0px;
+    width:70%;
+    background:white;
+    vertical-align:middle;
+}
+img {
+    display:inline-block;
+    vertical-align:middle;
 }
 
-.index-header {
-	font-size: 45px;
+.headings {
+	padding-left: 20px;
 }
-.index-description {
-	font-size: 18px;
-	float: right;
-	display: block;
-	
-}
-.parap-description {
-	align: right;
-	padding: 60px;
+
+.img-logo {
+	width: 555px;
 }
 
 .buffer {
-	height: 200px;
+	width: 50px;
+	height: 50px;
 }
 
-.image-service {
-	width: 450px;
-	height: 250px;
-	padding: 10px;
-	float:left;
+.img-politehnica {
+	width: 555px;
+}
+
+.index-parap {
+	padding-left: 10px;
 }
 
 /* Responsive code start */
