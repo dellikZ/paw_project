@@ -169,6 +169,7 @@ label.logo{
 
 .box {
 	
+
 }
 .box:hover {
 	box-shadow: 5px 5px 5px gray; 
@@ -207,6 +208,10 @@ img {
 .index-parap {
 	padding-left: 10px;
 }
+
+
+
+
 
 /* Responsive code start */
 @media screen and (max-width: 1250px){
