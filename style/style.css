@@ -164,7 +164,16 @@ label.logo{
 .element {
     /*background:rgb(134, 226, 255);*/
     margin:10px;
+
 }
+
+.box {
+	
+}
+.box:hover {
+	box-shadow: 5px 5px 5px gray; 
+}
+
 p {
     display:inline-block;
     margin:0px;
@@ -183,6 +192,7 @@ img {
 
 .img-logo {
 	width: 555px;
+	height: 374px;
 }
 
 .buffer {
