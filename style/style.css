@@ -11,7 +11,18 @@ body{
 	font-family: 'Montserrat', arial, sans-serif;
 }
 
+html { 
+	background: url("../images/background.jpeg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	blur: 8px;
+  }
 
+html, body {
+	scroll-behavior: smooth;
+}
 
 
 label.logo{
@@ -27,6 +38,7 @@ label.logo{
 	background: turquoise;
 	position: fixed;
 	width: 100%;
+	z-index: 2;
   }
   .wrapper nav{
 	position: relative;
@@ -164,24 +176,12 @@ label.logo{
 .element {
     /*background:rgb(134, 226, 255);*/
     margin:10px;
+	display: flex;
+	align-items: center;
 
 }
 
-.box {
-	
-
-}
-.box:hover {
-	box-shadow: 5px 5px 5px gray; 
-}
-
-p {
-    display:inline-block;
-    margin:0px;
-    width:70%;
-    background:white;
-    vertical-align:middle;
-}
+.
 img {
     display:inline-block;
     vertical-align:middle;
@@ -189,27 +189,100 @@ img {
 
 .headings {
 	padding-left: 20px;
+	color: #fff;
 }
 
-.img-logo {
-	width: 555px;
-	height: 374px;
+.bg-box {
+	text-color: #ffffff;
 }
+
+.box {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	width: 82%;
+	left: 150px;
+	transition: 1s;
+	height: 400px;
+
+}
+.box:hover {
+	transform: scale(1.1);
+}
+
+p {
+    display:inline-block;
+    margin:0px;
+    width:70%;
+	text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+	font-size: 25px;
+
+    /*vertical-align:middle;*/
+}
+
+.img_and_text {
+	display: flex;
+	align-items: center;
+}
+
+
 
 .buffer {
 	width: 50px;
 	height: 50px;
 }
 
-.img-politehnica {
-	width: 555px;
-}
+
 
 .index-parap {
 	padding-left: 10px;
+
+	color: #fff;
+}
+
+.service-image {
+
+	display: inline;
+	padding-right: 60px;
+	padding-left: 25px;
+}
+
+.img-politehnica {
+	padding-right: 60px;
+	padding-left: 25px;
+}
+
+footer {
+	position: relative;
 }
 
 
+
+#myBtn {
+	width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#myBtn:hover {
+	background-color: #DDF;
+    color: #000;
+}
 
 
 

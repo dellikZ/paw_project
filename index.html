@@ -10,7 +10,7 @@
    </head>
    <body>
       <header class="wrapper">
-         <nav>
+         <nav id="navbar">
             <input type="checkbox" id="show-search">
             <input type="checkbox" id="show-menu">
             <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
@@ -19,7 +19,7 @@
                <ul class="links">
                   <li><a href="index.html">Home</a></li>
                   <li>
-                     <a href="pages/services.html" class="desktop-link">Services</a>
+                     <a href="pages/services.html" class="desktop-link">Servicii</a>
                      <input type="checkbox" id="show-features">
                      <label for="show-features">Services</label>
                      <ul>
@@ -44,22 +44,26 @@
          </nav>
       </header>
       <br><br><br><br><br>
+      <div class="bg-box">
       <div class="box">
          <h1 class="headings">Descriere</h1>
          <div class="element">
-            <img src="images/service.png"/>
+            <div class="img_and_text">
+            <img src="images/service.png" class="service-image">
             <p class="index-parap">O companie infiintata relativ recent de catre 3 viitori absolventi ai UPB, extrem de pasionati de tot ce inseamna tehnologie.
-               De 2-3 ani incoace, am descoperit ca ne place foarte mult partea de depanare a diverserlor gadget-uri precum: sisteme desktop, laptop-uri sau telefoane. De la simple interventii pe parte software, pana la schimbaarea componentelor hardware sau depanarea amanuntita a acesstora, tot ceea ce facem facem din pura pasiune si ni s-a parut ok sa putem castiga si un ban cinstit din treaba asta.
+               De 2-3 ani incoace, am descoperit ca ne place foarte mult partea de depanare a diverserlor gadget-uri precum: sisteme desktop, laptop-uri sau telefoane.<br><br> De la simple interventii pe parte software, pana la schimbaarea componentelor hardware sau depanarea amanuntita a acesstora, tot ceea ce facem facem din pura pasiune si ni s-a parut ok sa putem castiga si un ban cinstit din treaba asta.
+               
             </p>
+         </div>
          </div>
       </div>
       <div class="buffer"></div>
       <div class="box">
       <h1 class="headings">De ce noi?</h1>
       <div class="element">
-         <img src="images/logo.png" alt="company logo" class="img-logo">
-         <p class="index-parap">In primul rand, credem ca ne ajuta faptul ca suntem tineri si avem in permanenta dorinta de a invata si de a fi la curent cu cele mai noi tehnologii. Consideram ca un factor vital in alegerea unui service este capabilitatea de a lucra cu cele mai noi tehnologii.
-            In al doilea rand, pozitionarea din punct de vedere geografic face sa fim printre putinele service-uri din zona, iar acest lucru poate fi un avantaj pentru oamenii care au nevoie urgenta de o depanare.
+         <img src="images/logo.v1.png" alt="company logo" class="img-logo">
+         <p class="index-parap">In primul rand, credem ca ne ajuta faptul ca suntem tineri si avem in permanenta dorinta de a invata si de a fi la curent cu cele mai noi tehnologii.<br><br> Consideram ca un factor vital in alegerea unui service este capabilitatea de a lucra cu cele mai noi tehnologii.
+            In al doilea rand, pozitionarea din punct de vedere geografic face sa fim printre putinele service-uri din zona, iar acest lucru poate fi un avantaj pentru oamenii care au nevoie urgenta de o depanare.<br><br>
             Preturile avantajoase sunt, de asemenea, ceea ce ne recomanda. Nu dorim nici sa para ca muncim pe gratis, dar nici sa cerem mai multi bani decat trebuie pentru un serviciu prestat.
          </p>
       </div>
@@ -69,15 +73,16 @@
       <h1 class="headings">Istoric</h1>
       <div class="element">
          <img src="images/politehnica.jpg" alt="upb bucuresti" class="img-politehnica">
-         <p class="index-parap">In anul universitar 2021-2022, ultimul nostru an de facultate, odata cu efectuarea unui proiect in cadrul disciplinei "Programarea Aplicatiilor Web", ne-am hotarat ca ar fi o idee buna sa facem pasul spre a ne infiinta o afacere cu scopul fructificarii unei pasiuni foarte vechi, si anume lucrul cu tehnologia. 
-         Dificultatea cea mai mare a fost gasirea unei locatii care sa ne avantajeze, insa spre norocul nostru am gasit un sediu exact in cartierul nostru de suflet, si anume Drumul Taberei. Inceputul a fost unul destul de dificil, intrucat implicatiile financiare in momentul in care deschizi o afacere nu sunt chiar micute, iar pe langa partea financiara nici birocratia din Romania nu ajuta, insa dupa cateva luni am reusit sa punem pe picioare afacerea si chiar sa ne atragem primii clienti care sa ne recomande. 
+         <p class="index-parap">In anul universitar 2021-2022, ultimul nostru an de facultate, odata cu efectuarea unui proiect in cadrul disciplinei "Programarea Aplicatiilor Web", ne-am hotarat ca ar fi o idee buna sa facem pasul spre a ne infiinta o afacere cu scopul fructificarii unei pasiuni foarte vechi, si anume lucrul cu tehnologia.<br><br> 
          In prezent avem peste 15000 de device-uri reparate cu succes si aproximativ tot atati clienti multumiti de serviciile noastre. Speram ca dumneavoastra, cel/cea care vizualizati aceasta pagina veti fi urmatoarea persoana care sa ne recomande.
          </p>
       </div> 
    </div>
-      <footer></footer>
-      <br><br><br><br><br>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+   </div>
+   <br><br><br><br><br>
+      <footer>
+         <div class="button-vertical-align">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">&#10148;</button>
       <script src="scripts/script.js"></script>       
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -90,5 +95,8 @@
          
          });
       </script>
+      </div>
+      </footer>
+      <br><br>
    </body>
 </html>
