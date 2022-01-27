@@ -394,6 +394,12 @@ footer {
 	border-radius: 15%;
 	background-color: turquoise;
 	padding: 20px;
+	cursor: pointer;
+	transition: all 200ms linear;
+}
+
+.team-button:hover {
+	box-shadow: 0px 0px 6px 2px  grey;
 }
 
 /* Responsive code start */
