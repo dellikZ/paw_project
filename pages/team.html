@@ -42,6 +42,23 @@
             </div>
          </nav>
       </header>
+      <br><br><br><br><br><br>
+      <div class="team-box">
+         <h1 class="team-headings">De ce este nevoie de o echipa?</h1>
+         <div class="team-images">
+            <img src="../images/steaua.jpg" alt="steaua footbal club">
+            <img src="../images/engineers.jpg" alt="engineers team">
+            <img src="../images/league.jpg" alt="league of legends team">
+         </div>
+         <div class="par-box">
+            <p class="team-parap">
+               Indiferent de domeniul de activitate, echipa este motorul ce face ca totul sa iasa perfect. O echipa nu va fi niciodata eficienta atunci cand este formata dintr-un singur membru, asa ca si noi avem echipa noastra de trei persoane. Poate ca noi nu ne ocupam cu sport sau inginerie, nici gaming profesionist, insa in fiecare zi "luptam" pentru a le oferi clientilor nostri servicii de cea mai buna calitate. Vrei sa descoperi cine sunt membrii echipei noastre? Apasa butonul de mai jos!
+            </p>
+         </div>
+         <form>
+            <button formaction="../pages/team/coman/coman.html" class="team-button">Apasa aici!</button>
+          </form>
+   </div>
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       <script src="../scripts/script.js"></script>       
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -54,6 +71,25 @@
            });
          
          });
+      </script>
+   <script type="text/javascript">
+
+      var images = new Array();
+      
+      function preloadImages(){
+      
+          for (i=0; i < preloadImages.arguments.length; i++){
+      
+               images[i] = new Image();
+      
+              images[i].src = preloadImages.arguments[i];
+      
+          }
+      
+      }
+      
+      preloadImages("steaua.jpg", "engineers.jpg", "league.jpg", "background.jpeg");
+      
       </script>
    </body>
 </html>

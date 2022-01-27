@@ -330,7 +330,7 @@ footer {
 
 }
 
-/*Laptop page*/
+/*Services Subpages*/
 
 .services-subpages {
 	padding: 30px;
@@ -350,6 +350,51 @@ footer {
 	font-size: 20px;
 }
 
+
+/*Team Page*/
+
+.team-box {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 70%;
+	margin: auto;
+}
+
+.team-images img {
+	width: 420px;
+	height: 350px;
+	margin: 10px;
+	
+
+}
+
+.team-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.team-headings {
+	text-align: center;
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+.team-parap {
+	color: #fff;
+	text-align: center;
+}
+
+.par-box {
+	padding-left: 250px;
+	margin: 30px;
+}
+
+.team-button {
+	margin:0 auto;
+    display:block;
+	border-radius: 15%;
+	background-color: turquoise;
+	padding: 20px;
+}
 
 /* Responsive code start */
 @media screen and (max-width: 1250px){
