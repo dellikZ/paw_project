@@ -329,6 +329,25 @@ footer {
 
 }
 
+/*Laptop page*/
+
+.services-subpages {
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	width: 40%;
+	position: relative;
+	left: 5%;
+	color: white;
+	text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+	
+}
+
+.services-subpages ul {
+	
+	padding-top: 25px;
+	padding-left: 45px;
+	font-size: 20px;
+}
 
 
 /* Responsive code start */
