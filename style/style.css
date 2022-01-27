@@ -284,6 +284,51 @@ footer {
     color: #000;
 }
 
+/*Services Page styling starts here*/
+.services-box {
+	align: left;
+	padding: 30px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 85%;
+	position: relative;
+	left: 5%;
+}
+
+.services-parap {
+	padding-left: 20px;
+	padding-top: 20px;
+
+	color: #fff;
+}
+
+.services-img-laptop {
+	width: 320px;
+	padding: 15px;
+	border-radius: 50%;
+}
+
+.services-img-pc {
+	width: 300px;
+	height: 330px;
+	padding: 15px;
+	border-radius: 50%;
+}
+
+.services-img-smart {
+	width: 300px;
+	height: 330px;
+	padding: 15px;
+	border-radius: 50%;
+}
+
+.services-images {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px;
+
+}
+
 
 
 /* Responsive code start */
